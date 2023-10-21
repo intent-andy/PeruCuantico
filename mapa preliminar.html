@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_0f48c4bd8c57c0442616697dca69252a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_0f48c4bd8c57c0442616697dca69252a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_0f48c4bd8c57c0442616697dca69252a = L.map(
+                "map_0f48c4bd8c57c0442616697dca69252a",
+                {
+                    center: [-13.392792935352029, -69.45073860682452],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_6e14ac8f20e0b1388cdfd4fd039bb114 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var poly_line_013e9bb3e626c127f5d05c1099837253 = L.polyline(
+                [[-13.392792935352029, -69.45073860682452], [-12.931751326132385, -69.27268671623278]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var feature_group_5ea27d2d6d7f8906b8cf5230ed428cbf = L.featureGroup(
+                {}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var marker_ba00bbeea206a82dc39e556c52b1294b = L.marker(
+                [-13.392792935352029, -69.45073860682452],
+                {}
+            ).addTo(feature_group_5ea27d2d6d7f8906b8cf5230ed428cbf);
+        
+    
+        var popup_017f54fdd6a89ce2eb963bd0a5735b05 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e39a4c96ea43a0b451e31a9dee55294a = $(`<div id="html_e39a4c96ea43a0b451e31a9dee55294a" style="width: 100.0%; height: 100.0%;">Parque Nacional Bahuaja-Sonene</div>`)[0];
+                popup_017f54fdd6a89ce2eb963bd0a5735b05.setContent(html_e39a4c96ea43a0b451e31a9dee55294a);
+            
+        
+
+        marker_ba00bbeea206a82dc39e556c52b1294b.bindPopup(popup_017f54fdd6a89ce2eb963bd0a5735b05)
+        ;
+
+        
+    
+    
+            var marker_2b35dcde8756470d9aebe4babf6bd741 = L.marker(
+                [-12.040428939308635, -71.72300401810168],
+                {}
+            ).addTo(feature_group_5ea27d2d6d7f8906b8cf5230ed428cbf);
+        
+    
+        var popup_a069166cdbbeae5c24e71c68dee243f9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c350e25e3f067bdd5132beba88bfc84f = $(`<div id="html_c350e25e3f067bdd5132beba88bfc84f" style="width: 100.0%; height: 100.0%;">Parque Nacional del Manu</div>`)[0];
+                popup_a069166cdbbeae5c24e71c68dee243f9.setContent(html_c350e25e3f067bdd5132beba88bfc84f);
+            
+        
+
+        marker_2b35dcde8756470d9aebe4babf6bd741.bindPopup(popup_a069166cdbbeae5c24e71c68dee243f9)
+        ;
+
+        
+    
+    
+            var marker_ff6e5ba42785a1e0087fcbf634a7be0d = L.marker(
+                [-12.61091214919876, -69.20856082770615],
+                {}
+            ).addTo(feature_group_5ea27d2d6d7f8906b8cf5230ed428cbf);
+        
+    
+        var popup_e71276cd74b2c9805e71fd7c6a48832e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f41f6c7b681824ff78dba1fd9ba60963 = $(`<div id="html_f41f6c7b681824ff78dba1fd9ba60963" style="width: 100.0%; height: 100.0%;">Puerto Maldonado (Capital de la región)</div>`)[0];
+                popup_e71276cd74b2c9805e71fd7c6a48832e.setContent(html_f41f6c7b681824ff78dba1fd9ba60963);
+            
+        
+
+        marker_ff6e5ba42785a1e0087fcbf634a7be0d.bindPopup(popup_e71276cd74b2c9805e71fd7c6a48832e)
+        ;
+
+        
+    
+    
+            var marker_b808108681b8340cf9580a0b56317481 = L.marker(
+                [-12.931751326132385, -69.27268671623278],
+                {}
+            ).addTo(feature_group_5ea27d2d6d7f8906b8cf5230ed428cbf);
+        
+    
+        var popup_d2b2d87da5bf52811a4267ff4020a3ee = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3dd69d1001fadebad43997da91cb9130 = $(`<div id="html_3dd69d1001fadebad43997da91cb9130" style="width: 100.0%; height: 100.0%;">Reserva Nacional de Tambopata</div>`)[0];
+                popup_d2b2d87da5bf52811a4267ff4020a3ee.setContent(html_3dd69d1001fadebad43997da91cb9130);
+            
+        
+
+        marker_b808108681b8340cf9580a0b56317481.bindPopup(popup_d2b2d87da5bf52811a4267ff4020a3ee)
+        ;
+
+        
+    
+    
+            var marker_676b00ffa1a479cffbb2a3fca145ac33 = L.marker(
+                [-11.408620086641912, -69.50073070456547],
+                {}
+            ).addTo(feature_group_5ea27d2d6d7f8906b8cf5230ed428cbf);
+        
+    
+        var popup_a2a6cd349edeb01aa16c8220789e7b16 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e51ddeac64112555c217ff4cae0a9ecf = $(`<div id="html_e51ddeac64112555c217ff4cae0a9ecf" style="width: 100.0%; height: 100.0%;">Provincia de Tahuamanu</div>`)[0];
+                popup_a2a6cd349edeb01aa16c8220789e7b16.setContent(html_e51ddeac64112555c217ff4cae0a9ecf);
+            
+        
+
+        marker_676b00ffa1a479cffbb2a3fca145ac33.bindPopup(popup_a2a6cd349edeb01aa16c8220789e7b16)
+        ;
+
+        
+    
+    
+            var poly_line_fe3be7ed569a1ca3a9dff00a0a675fc6 = L.polyline(
+                [[-12.931751326132385, -69.27268671623278], [-12.61091214919876, -69.20856082770615]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var feature_group_50674ed2b54dca506479291731df481b = L.featureGroup(
+                {}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var marker_b2f0150220deab4cf7cea2760c925e2a = L.marker(
+                [-13.392792935352029, -69.45073860682452],
+                {}
+            ).addTo(feature_group_50674ed2b54dca506479291731df481b);
+        
+    
+        var popup_4d4c95a0b0916a19eedbbab21c5f794c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90c895e4b510b4ac4bd40536685638a7 = $(`<div id="html_90c895e4b510b4ac4bd40536685638a7" style="width: 100.0%; height: 100.0%;">Parque Nacional Bahuaja-Sonene</div>`)[0];
+                popup_4d4c95a0b0916a19eedbbab21c5f794c.setContent(html_90c895e4b510b4ac4bd40536685638a7);
+            
+        
+
+        marker_b2f0150220deab4cf7cea2760c925e2a.bindPopup(popup_4d4c95a0b0916a19eedbbab21c5f794c)
+        ;
+
+        
+    
+    
+            var marker_76bfd4beb3426c52b3d6d971b2ae6f78 = L.marker(
+                [-12.040428939308635, -71.72300401810168],
+                {}
+            ).addTo(feature_group_50674ed2b54dca506479291731df481b);
+        
+    
+        var popup_8f6d252188d3f4f720b0a0193c92c0e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d348064e5160ba47325269af80881930 = $(`<div id="html_d348064e5160ba47325269af80881930" style="width: 100.0%; height: 100.0%;">Parque Nacional del Manu</div>`)[0];
+                popup_8f6d252188d3f4f720b0a0193c92c0e1.setContent(html_d348064e5160ba47325269af80881930);
+            
+        
+
+        marker_76bfd4beb3426c52b3d6d971b2ae6f78.bindPopup(popup_8f6d252188d3f4f720b0a0193c92c0e1)
+        ;
+
+        
+    
+    
+            var marker_099f1d1ebbd22bbf0fe447c214094d05 = L.marker(
+                [-12.61091214919876, -69.20856082770615],
+                {}
+            ).addTo(feature_group_50674ed2b54dca506479291731df481b);
+        
+    
+        var popup_98ede2faf0b7371d8629543e9dbf3c0a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_867f220b33ad94a8b46083b1ccffaef7 = $(`<div id="html_867f220b33ad94a8b46083b1ccffaef7" style="width: 100.0%; height: 100.0%;">Puerto Maldonado (Capital de la región)</div>`)[0];
+                popup_98ede2faf0b7371d8629543e9dbf3c0a.setContent(html_867f220b33ad94a8b46083b1ccffaef7);
+            
+        
+
+        marker_099f1d1ebbd22bbf0fe447c214094d05.bindPopup(popup_98ede2faf0b7371d8629543e9dbf3c0a)
+        ;
+
+        
+    
+    
+            var marker_3860e540ac4eb6afe0d83f0e415e6c67 = L.marker(
+                [-12.931751326132385, -69.27268671623278],
+                {}
+            ).addTo(feature_group_50674ed2b54dca506479291731df481b);
+        
+    
+        var popup_2e0592f3dae44d8b79b25ce806c316c2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ef7ec35848a0708e8544533a323ca07d = $(`<div id="html_ef7ec35848a0708e8544533a323ca07d" style="width: 100.0%; height: 100.0%;">Reserva Nacional de Tambopata</div>`)[0];
+                popup_2e0592f3dae44d8b79b25ce806c316c2.setContent(html_ef7ec35848a0708e8544533a323ca07d);
+            
+        
+
+        marker_3860e540ac4eb6afe0d83f0e415e6c67.bindPopup(popup_2e0592f3dae44d8b79b25ce806c316c2)
+        ;
+
+        
+    
+    
+            var marker_7c71e2733ddab7bd20d010c95b5e2895 = L.marker(
+                [-11.408620086641912, -69.50073070456547],
+                {}
+            ).addTo(feature_group_50674ed2b54dca506479291731df481b);
+        
+    
+        var popup_88fe9abc46662d8f9587750d5aaa91b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_752b46811ff949c04b76907d24c03465 = $(`<div id="html_752b46811ff949c04b76907d24c03465" style="width: 100.0%; height: 100.0%;">Provincia de Tahuamanu</div>`)[0];
+                popup_88fe9abc46662d8f9587750d5aaa91b3.setContent(html_752b46811ff949c04b76907d24c03465);
+            
+        
+
+        marker_7c71e2733ddab7bd20d010c95b5e2895.bindPopup(popup_88fe9abc46662d8f9587750d5aaa91b3)
+        ;
+
+        
+    
+    
+            var poly_line_936306a9a79b973a4962bb140305e111 = L.polyline(
+                [[-12.61091214919876, -69.20856082770615], [-11.408620086641912, -69.50073070456547]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var feature_group_0ab3492ee09d8bd306ef72e75ac42a6e = L.featureGroup(
+                {}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var marker_0540e1afb6b4dcf0b3e488706575f8a2 = L.marker(
+                [-13.392792935352029, -69.45073860682452],
+                {}
+            ).addTo(feature_group_0ab3492ee09d8bd306ef72e75ac42a6e);
+        
+    
+        var popup_a6c574f86897098042f2dfbb7b4b2104 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a3eec16696e3337a8fb305156d2404d9 = $(`<div id="html_a3eec16696e3337a8fb305156d2404d9" style="width: 100.0%; height: 100.0%;">Parque Nacional Bahuaja-Sonene</div>`)[0];
+                popup_a6c574f86897098042f2dfbb7b4b2104.setContent(html_a3eec16696e3337a8fb305156d2404d9);
+            
+        
+
+        marker_0540e1afb6b4dcf0b3e488706575f8a2.bindPopup(popup_a6c574f86897098042f2dfbb7b4b2104)
+        ;
+
+        
+    
+    
+            var marker_cd867a622914b00861727390440e1011 = L.marker(
+                [-12.040428939308635, -71.72300401810168],
+                {}
+            ).addTo(feature_group_0ab3492ee09d8bd306ef72e75ac42a6e);
+        
+    
+        var popup_1f4a698647d6c1404b85a840313eafff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f45bb574dff06c1f8bd0678b4057071 = $(`<div id="html_4f45bb574dff06c1f8bd0678b4057071" style="width: 100.0%; height: 100.0%;">Parque Nacional del Manu</div>`)[0];
+                popup_1f4a698647d6c1404b85a840313eafff.setContent(html_4f45bb574dff06c1f8bd0678b4057071);
+            
+        
+
+        marker_cd867a622914b00861727390440e1011.bindPopup(popup_1f4a698647d6c1404b85a840313eafff)
+        ;
+
+        
+    
+    
+            var marker_ac5377ff67129ae72543d0e872ee88ce = L.marker(
+                [-12.61091214919876, -69.20856082770615],
+                {}
+            ).addTo(feature_group_0ab3492ee09d8bd306ef72e75ac42a6e);
+        
+    
+        var popup_2a8163179ed90f7a323a010f36159492 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06c5818f3796df2eaada144ffc164f6d = $(`<div id="html_06c5818f3796df2eaada144ffc164f6d" style="width: 100.0%; height: 100.0%;">Puerto Maldonado (Capital de la región)</div>`)[0];
+                popup_2a8163179ed90f7a323a010f36159492.setContent(html_06c5818f3796df2eaada144ffc164f6d);
+            
+        
+
+        marker_ac5377ff67129ae72543d0e872ee88ce.bindPopup(popup_2a8163179ed90f7a323a010f36159492)
+        ;
+
+        
+    
+    
+            var marker_fed13d488dd939d81be7fdf06cdb22bf = L.marker(
+                [-12.931751326132385, -69.27268671623278],
+                {}
+            ).addTo(feature_group_0ab3492ee09d8bd306ef72e75ac42a6e);
+        
+    
+        var popup_5ffdf2dfbb13c632ac2d223cde1e7f1e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_31fbda305045e48f734ad643668b40c6 = $(`<div id="html_31fbda305045e48f734ad643668b40c6" style="width: 100.0%; height: 100.0%;">Reserva Nacional de Tambopata</div>`)[0];
+                popup_5ffdf2dfbb13c632ac2d223cde1e7f1e.setContent(html_31fbda305045e48f734ad643668b40c6);
+            
+        
+
+        marker_fed13d488dd939d81be7fdf06cdb22bf.bindPopup(popup_5ffdf2dfbb13c632ac2d223cde1e7f1e)
+        ;
+
+        
+    
+    
+            var marker_c510d53f709551e264181105840538d0 = L.marker(
+                [-11.408620086641912, -69.50073070456547],
+                {}
+            ).addTo(feature_group_0ab3492ee09d8bd306ef72e75ac42a6e);
+        
+    
+        var popup_385b406ded18a920952e36f2a5344d2e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e655bb516eec761ea8eed18eedff673a = $(`<div id="html_e655bb516eec761ea8eed18eedff673a" style="width: 100.0%; height: 100.0%;">Provincia de Tahuamanu</div>`)[0];
+                popup_385b406ded18a920952e36f2a5344d2e.setContent(html_e655bb516eec761ea8eed18eedff673a);
+            
+        
+
+        marker_c510d53f709551e264181105840538d0.bindPopup(popup_385b406ded18a920952e36f2a5344d2e)
+        ;
+
+        
+    
+    
+            var poly_line_f2797d760c6e61ccd57ffb300fa1b6a8 = L.polyline(
+                [[-11.408620086641912, -69.50073070456547], [-12.040428939308635, -71.72300401810168]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var feature_group_9f5dacca3319372aa69c480ac1a50898 = L.featureGroup(
+                {}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var marker_5da43cd9daff90594fff304f16958a8f = L.marker(
+                [-13.392792935352029, -69.45073860682452],
+                {}
+            ).addTo(feature_group_9f5dacca3319372aa69c480ac1a50898);
+        
+    
+        var popup_7984c5003bc3a08682692f2e51da02ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95bb9d43110c301f8577e295bdd92300 = $(`<div id="html_95bb9d43110c301f8577e295bdd92300" style="width: 100.0%; height: 100.0%;">Parque Nacional Bahuaja-Sonene</div>`)[0];
+                popup_7984c5003bc3a08682692f2e51da02ad.setContent(html_95bb9d43110c301f8577e295bdd92300);
+            
+        
+
+        marker_5da43cd9daff90594fff304f16958a8f.bindPopup(popup_7984c5003bc3a08682692f2e51da02ad)
+        ;
+
+        
+    
+    
+            var marker_89f702ea6f7f792efd3fb10dbcc37f74 = L.marker(
+                [-12.040428939308635, -71.72300401810168],
+                {}
+            ).addTo(feature_group_9f5dacca3319372aa69c480ac1a50898);
+        
+    
+        var popup_280226ec12b8e25e9d6a1ed04f29f7db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b04e1700f4ede5d247e9b132e9b023f4 = $(`<div id="html_b04e1700f4ede5d247e9b132e9b023f4" style="width: 100.0%; height: 100.0%;">Parque Nacional del Manu</div>`)[0];
+                popup_280226ec12b8e25e9d6a1ed04f29f7db.setContent(html_b04e1700f4ede5d247e9b132e9b023f4);
+            
+        
+
+        marker_89f702ea6f7f792efd3fb10dbcc37f74.bindPopup(popup_280226ec12b8e25e9d6a1ed04f29f7db)
+        ;
+
+        
+    
+    
+            var marker_15c5986e781b2c61e6f6a6af87ef9475 = L.marker(
+                [-12.61091214919876, -69.20856082770615],
+                {}
+            ).addTo(feature_group_9f5dacca3319372aa69c480ac1a50898);
+        
+    
+        var popup_30bdba3aa9752796198653f5874b9176 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_03c405111866ba6d56bb15d5003ab03e = $(`<div id="html_03c405111866ba6d56bb15d5003ab03e" style="width: 100.0%; height: 100.0%;">Puerto Maldonado (Capital de la región)</div>`)[0];
+                popup_30bdba3aa9752796198653f5874b9176.setContent(html_03c405111866ba6d56bb15d5003ab03e);
+            
+        
+
+        marker_15c5986e781b2c61e6f6a6af87ef9475.bindPopup(popup_30bdba3aa9752796198653f5874b9176)
+        ;
+
+        
+    
+    
+            var marker_b0ca9b30317a4199eedc9337d93a9b02 = L.marker(
+                [-12.931751326132385, -69.27268671623278],
+                {}
+            ).addTo(feature_group_9f5dacca3319372aa69c480ac1a50898);
+        
+    
+        var popup_755eb4441c1108449b699a88a284f3af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b5e01d79695499d3b50c969932c062a2 = $(`<div id="html_b5e01d79695499d3b50c969932c062a2" style="width: 100.0%; height: 100.0%;">Reserva Nacional de Tambopata</div>`)[0];
+                popup_755eb4441c1108449b699a88a284f3af.setContent(html_b5e01d79695499d3b50c969932c062a2);
+            
+        
+
+        marker_b0ca9b30317a4199eedc9337d93a9b02.bindPopup(popup_755eb4441c1108449b699a88a284f3af)
+        ;
+
+        
+    
+    
+            var marker_d03117367ed83221b79095906ef79f7d = L.marker(
+                [-11.408620086641912, -69.50073070456547],
+                {}
+            ).addTo(feature_group_9f5dacca3319372aa69c480ac1a50898);
+        
+    
+        var popup_f29afba159b59f9f67039e402324784f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ad2a3f76df79b3d28e8a60be6596573 = $(`<div id="html_8ad2a3f76df79b3d28e8a60be6596573" style="width: 100.0%; height: 100.0%;">Provincia de Tahuamanu</div>`)[0];
+                popup_f29afba159b59f9f67039e402324784f.setContent(html_8ad2a3f76df79b3d28e8a60be6596573);
+            
+        
+
+        marker_d03117367ed83221b79095906ef79f7d.bindPopup(popup_f29afba159b59f9f67039e402324784f)
+        ;
+
+        
+    
+    
+            var poly_line_4018caef077f27a282f1bf0dc50efae9 = L.polyline(
+                [[-12.040428939308635, -71.72300401810168], [-13.392792935352029, -69.45073860682452]],
+                {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": false, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "noClip": false, "opacity": 1.0, "smoothFactor": 1.0, "stroke": true, "weight": 1}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var feature_group_ac6bcb5c6a21012bc92e4e81bbd1122f = L.featureGroup(
+                {}
+            ).addTo(map_0f48c4bd8c57c0442616697dca69252a);
+        
+    
+            var marker_efdee0f9022515245fee975860eec4e5 = L.marker(
+                [-13.392792935352029, -69.45073860682452],
+                {}
+            ).addTo(feature_group_ac6bcb5c6a21012bc92e4e81bbd1122f);
+        
+    
+        var popup_7d4984022f481568796097ecad15b8b3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35583ddc2a5e2e5faac31c2f5879a9d1 = $(`<div id="html_35583ddc2a5e2e5faac31c2f5879a9d1" style="width: 100.0%; height: 100.0%;">Parque Nacional Bahuaja-Sonene</div>`)[0];
+                popup_7d4984022f481568796097ecad15b8b3.setContent(html_35583ddc2a5e2e5faac31c2f5879a9d1);
+            
+        
+
+        marker_efdee0f9022515245fee975860eec4e5.bindPopup(popup_7d4984022f481568796097ecad15b8b3)
+        ;
+
+        
+    
+    
+            var marker_ff5c66da0a878bc2a32ae87a18c21b20 = L.marker(
+                [-12.040428939308635, -71.72300401810168],
+                {}
+            ).addTo(feature_group_ac6bcb5c6a21012bc92e4e81bbd1122f);
+        
+    
+        var popup_c62a26486e6b820de31153d53e0dbb2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_785a4fdac2869477891bce281ea01332 = $(`<div id="html_785a4fdac2869477891bce281ea01332" style="width: 100.0%; height: 100.0%;">Parque Nacional del Manu</div>`)[0];
+                popup_c62a26486e6b820de31153d53e0dbb2c.setContent(html_785a4fdac2869477891bce281ea01332);
+            
+        
+
+        marker_ff5c66da0a878bc2a32ae87a18c21b20.bindPopup(popup_c62a26486e6b820de31153d53e0dbb2c)
+        ;
+
+        
+    
+    
+            var marker_523fac5086260176709a296bd2109feb = L.marker(
+                [-12.61091214919876, -69.20856082770615],
+                {}
+            ).addTo(feature_group_ac6bcb5c6a21012bc92e4e81bbd1122f);
+        
+    
+        var popup_02c6df7eb3c02741eebcd079a3c510a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7304f1c9614c48a49a1534effc3923d7 = $(`<div id="html_7304f1c9614c48a49a1534effc3923d7" style="width: 100.0%; height: 100.0%;">Puerto Maldonado (Capital de la región)</div>`)[0];
+                popup_02c6df7eb3c02741eebcd079a3c510a0.setContent(html_7304f1c9614c48a49a1534effc3923d7);
+            
+        
+
+        marker_523fac5086260176709a296bd2109feb.bindPopup(popup_02c6df7eb3c02741eebcd079a3c510a0)
+        ;
+
+        
+    
+    
+            var marker_9510466a82d2b4de291a08565f045243 = L.marker(
+                [-12.931751326132385, -69.27268671623278],
+                {}
+            ).addTo(feature_group_ac6bcb5c6a21012bc92e4e81bbd1122f);
+        
+    
+        var popup_4f4884a3a8985c57baa9f25feaa5b7c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_204e0cd71a1da22a95519ca6d78a5d38 = $(`<div id="html_204e0cd71a1da22a95519ca6d78a5d38" style="width: 100.0%; height: 100.0%;">Reserva Nacional de Tambopata</div>`)[0];
+                popup_4f4884a3a8985c57baa9f25feaa5b7c9.setContent(html_204e0cd71a1da22a95519ca6d78a5d38);
+            
+        
+
+        marker_9510466a82d2b4de291a08565f045243.bindPopup(popup_4f4884a3a8985c57baa9f25feaa5b7c9)
+        ;
+
+        
+    
+    
+            var marker_d0859310277df5222ae131365d38de3b = L.marker(
+                [-11.408620086641912, -69.50073070456547],
+                {}
+            ).addTo(feature_group_ac6bcb5c6a21012bc92e4e81bbd1122f);
+        
+    
+        var popup_bd234039c7877af017f36a7d94cb997d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab966a6812b8043fd74e8a2cd0ab89aa = $(`<div id="html_ab966a6812b8043fd74e8a2cd0ab89aa" style="width: 100.0%; height: 100.0%;">Provincia de Tahuamanu</div>`)[0];
+                popup_bd234039c7877af017f36a7d94cb997d.setContent(html_ab966a6812b8043fd74e8a2cd0ab89aa);
+            
+        
+
+        marker_d0859310277df5222ae131365d38de3b.bindPopup(popup_bd234039c7877af017f36a7d94cb997d)
+        ;
+
+        
+    
+</script>
+</html>
