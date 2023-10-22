@@ -15,13 +15,13 @@ En los dos primeros notebooks titulados “[Ruta](Rutas/Ruta.ipynb)” y “[Rut
    
 3. Se calcula las distancias entre todas las posibles combinaciones de lugares y se almacenan estos valores en un diccionario llamado "distancia_arcos".
    
-4. Se crea un grafo utilizando la biblioteca NetworkX, donde los nodos representan lugares y los bordes entre los nodos tienen pesos correspondientes a las distancias entre los lugares.
+4. Se crea una red utilizando la biblioteca NetworkX, donde los nodos representan lugares y los bordes entre los nodos tienen pesos correspondientes a las distancias entre los lugares.
    
-5. Se realiza una representación gráfica de este grafo, lo que proporciona una visualización de las ubicaciones de los lugares y las distancias entre ellas.
+5. Se realiza una representación gráfica de esta red, lo que proporciona una visualización de las ubicaciones de los lugares y las distancias entre ellas.
 
 6. Se resuelve el Problema del Viajante de Comercio (TSP) utilizando un enfoque de "fuerza bruta", lo que implica calcular todas las posibles permutaciones de los lugares y se selecciona la ruta más corta.
 
-7. Se muestra la solución óptima del TSP en el grafo, destacando el orden en el que se deben visitar los lugares. 
+7. Se muestra la solución óptima del TSP en la red, destacando el orden en el que se deben visitar los lugares. 
 
 8. Se almacena la información relevante, como la mejor secuencia de lugares para visitar y las coordenadas de los lugares, para su posterior uso. 
 
