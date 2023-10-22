@@ -30,10 +30,10 @@ Se usaron las siguientes librerías con su respectiva documentación:
 
 4. [Matplotlib](https://matplotlib.org/).
 
-5. [NetworkX](https://networkx.org/)
+5. [NetworkX](https://networkx.org/).
 
-6. [Qiskit](https://qiskit.org/)
+6. [Qiskit](https://qiskit.org/).
 
-7. [Itertools](https://docs.python.org/3/library/itertools.html)
+7. [Itertools](https://docs.python.org/3/library/itertools.html).
 
-8. [Folium](https://python-visualization.github.io/folium/latest/)
+8. [Folium](https://python-visualization.github.io/folium/latest/).
