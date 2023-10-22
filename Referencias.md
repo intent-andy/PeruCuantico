@@ -11,11 +11,11 @@
   
 6. [Zonificación de Parque Nacional del Manu](geoidep.gob.pe).
 
-7. DIRECTORIO DE HOSPEDAJES CLASIFICADOS Y CATEGORIZADOS 2022 | Plataforma Nacional de Datos Abiertos.
+7. [DIRECTORIO DE HOSPEDAJES CLASIFICADOS Y CATEGORIZADOS 2022 | Plataforma Nacional de Datos Abiertos](https://www.datosabiertos.gob.pe/dataset/directorio-de-hospedajes-clasificados-y-categorizados-2022).
 
-8. DIRECTORIO DE GUIAS DE TURISMO 2022 | Plataforma Nacional de Datos Abiertos.
+8. [DIRECTORIO DE GUIAS DE TURISMO 2022 | Plataforma Nacional de Datos Abiertos](https://www.datosabiertos.gob.pe/dataset/directorio-de-guias-de-turismo-2022).
 
-9. Áreas Naturales Protegidas (ANP) de Administración Nacional Definitiva | Plataforma Nacional de Datos Abiertos.
+9. [Áreas Naturales Protegidas (ANP) de Administración Nacional Definitiva | Plataforma Nacional de Datos Abiertos](https://www.datosabiertos.gob.pe/dataset/%C3%A1reas-naturales-protegidas-anp-de-administraci%C3%B3n-nacional-definitiva).
 
 10. [Parque Nacional del Manu - Informes y publicaciones - Servicio Nacional de Áreas Naturales Protegidas por el Estado - Plataforma del Estado Peruano](www.gob.pe).
 
