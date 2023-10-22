@@ -5,21 +5,29 @@
 
 3. Organización Mundial del Turismo y La Organización de los Estados Americanos. (2018). El turismo y los Objetivos de Desarrollo Sostenible – Buenas prácticas en las Américas.
 
-4. [Foto Montaña verde bajo un cielo nublado blanco durante el día – Imagen Perú gratis en Unsplash](https://www.google.com/maps).
+4. [Foto Montaña verde bajo un cielo nublado blanco durante el día – Imagen Perú gratis en Unsplash](https://unsplash.com/es/fotos/montana-verde-bajo-un-cielo-nublado-blanco-durante-el-dia-lRNW1UsIHXA).
+
+5. [Google Maps](https://www.google.com/maps). 
   
-5. [Zonificación de Parque Nacional del Manu](geoidep.gob.pe).
+6. [Zonificación de Parque Nacional del Manu](geoidep.gob.pe).
 
-6. DIRECTORIO DE HOSPEDAJES CLASIFICADOS Y CATEGORIZADOS 2022 | Plataforma Nacional de Datos Abiertos.
+7. DIRECTORIO DE HOSPEDAJES CLASIFICADOS Y CATEGORIZADOS 2022 | Plataforma Nacional de Datos Abiertos.
 
-7. DIRECTORIO DE GUIAS DE TURISMO 2022 | Plataforma Nacional de Datos Abiertos.
+8. DIRECTORIO DE GUIAS DE TURISMO 2022 | Plataforma Nacional de Datos Abiertos.
 
-8. Áreas Naturales Protegidas (ANP) de Administración Nacional Definitiva | Plataforma Nacional de Datos Abiertos.
+9. Áreas Naturales Protegidas (ANP) de Administración Nacional Definitiva | Plataforma Nacional de Datos Abiertos.
 
-9. [Parque Nacional del Manu - Informes y publicaciones - Servicio Nacional de Áreas Naturales Protegidas por el Estado - Plataforma del Estado Peruano](www.gob.pe).
+10. [Parque Nacional del Manu - Informes y publicaciones - Servicio Nacional de Áreas Naturales Protegidas por el Estado - Plataforma del Estado Peruano](www.gob.pe).
 
-10. Wikimedia Commons.
+11. [Wikimedia Commons](https://commons.wikimedia.org/wiki/Main_Page).
    
-11. Wikidata.
+12. [Wikidata](https://www.wikidata.org/wiki/Wikidata:Main_Page).
+
+13. [Media, U. C. I. (2014, agosto 22). Donald Hoffman - “Quantum Game Theory”](https://www.youtube.com/watch?v=iPtztfGuIGk).
+   
+14. [Quantum Economics and Finance. (2021, marzo 2). QEF07 - The Prisoner’s Dilemma](https://www.youtube.com/watch?v=wteokZy9Znk).
+
+15. Orrell, D. (2022). Quantum economics and finance: An applied mathematics introduction (3a ed.). Panda Ohana Publishing.
 
 Se usaron las siguientes librerías con su respectiva documentación:
 1. [Pandas](https://pandas.pydata.org/).
