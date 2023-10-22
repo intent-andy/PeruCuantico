@@ -1,0 +1,1 @@
+Para correr poder correr el juego correctamente ingrese en el siguiente [link](https://drive.google.com/drive/folders/1iwj6C960ryzp3Gw-FF0n0zrCjiqYpJ1t?usp=share_link) y descargue la carpeta "Juego piloto". Luego, ejecute el archivo "Test for CO-Afina 2023.exe".
